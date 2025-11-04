@@ -20,23 +20,22 @@ function ordenaPalavra(p1, p2){
     return frequencias [p2] - frequencias[p1];
 }
 return ordenadas.slice(0,10);
-{
+}
 
     
 
 function contaFrequencias(palavras) {
   let frequencias = {};
 
-    for (let i of palavras){
+    for (let i of palavras) {
         frequencias[i] = 0;
 
-        for (let j of palavras){
+        for (let j of palavras) {
             if (i == j) {
                 frequencias[i]++;
             }
         }
     }
     return palavras;
-
 
 }
